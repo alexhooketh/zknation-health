@@ -1,5 +1,4 @@
 from matplotlib import pyplot
-from random import choices
 import requests
 
 delegates = requests.post("https://api.tally.xyz/query", json={
